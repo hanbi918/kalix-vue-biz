@@ -1,7 +1,7 @@
 {
   "name": "kalix-vue-biz",
   "description": "biz plugins",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": "yangze8818 <yangze_lmkj@163.com>",
   "license": "MIT",
   "private": false,
@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "pub": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "easemob-websdk": "^1.4.12",
     "echarts": "^3.8.5",
     "element-ui": "^2.0.4",
+    "kalix-vue-common": "^0.0.7",
     "smooth-scrollbar": "^8.2.3",
     "strophe.js": "^1.2.14",
     "stylus": "^0.54.5",

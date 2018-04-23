@@ -4,12 +4,20 @@ import BasedictSearch from '../components/biz/dict/basedictSearch'
 import BasedictView from '../components/biz/dict/basedictView'
 import Basedict from '../components/biz/dict/basedict'
 
+import OrgTree from '../components/biz/tree/OrgTree'
+
+import BaseTransfer from '../components/biz/select/baseTransfer'
+
 const components = [
   UserSelect,
   BaseDictAdd,
   BasedictSearch,
   BasedictView,
-  Basedict
+  Basedict,
+
+  OrgTree,
+
+  BaseTransfer
 ]
 
 const biz = {
